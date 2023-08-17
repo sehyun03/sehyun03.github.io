@@ -7,7 +7,7 @@ subtitle: Ph.D. student in the <a href='http://cvlab.postech.ac.kr/lab/'>Compute
 profile:
   align: right
   image: prof_sehyun.jpg
-  image_cicular: true # crops the image to make it circular
+  image_cicular: false # crops the image to make it circular
   address: > 
 
 news: true  # includes a list of news items
