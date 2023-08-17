@@ -14,25 +14,37 @@
   - firstname: ["Sungsoo"]
     url: https://sites.google.com/view/sungsooahn0215/home/
 
-"Kim1":
-  - firstname: ["Namyup"]
-    url: https://southflame.github.io/
-
 "Lee":
   - firstname: ["Sohyun"]
     url: https://sohyun-l.github.io/
 
-"Kim2":
-  - firstname: ["Sungyeon"]
-    url: https://cvlab.postech.ac.kr/~sungyeon/
+"Kim Namyup":
+  - url: https://southflame.github.io/
 
-"Kim3":
-  - firstname: ["Nayeong"]
-    url: https://nayeong-v-kim.github.io/
+"Kim Sungyeon":
+  - url: https://cvlab.postech.ac.kr/~sungyeon/
 
-"Kim4":
-  - firstname: ["Hoyoung"]
-    url: https://cskhy16.github.io/
+"Kim Nayeong":
+  - url: https://nayeong-v-kim.github.io/
+
+"Kim Hoyoung":
+  - url: https://cskhy16.github.io/
+
+# "Kim":
+#   - firstname: ["Namyup"]
+#     url: https://southflame.github.io/
+
+# "Kim":
+#   - firstname: ["Sungyeon"]
+#     url: https://cvlab.postech.ac.kr/~sungyeon/
+
+# "Kim":
+#   - firstname: ["Nayeong"]
+#     url: https://nayeong-v-kim.github.io/
+
+# "Kim":
+#   - firstname: ["Hoyoung"]
+#     url: https://cskhy16.github.io/
 
 # "Oh":
 #   - firstname: ["Minhyeon"]
