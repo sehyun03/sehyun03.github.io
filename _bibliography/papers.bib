@@ -7,6 +7,21 @@
 @string{ICRA = {IEEE International Conference on Robotics and Automation (<b>ICRA</b>),}}
 @string{arXiv = {arXiv preprint,}}
 
+@inproceedings{hwang2022combating,
+  title={Combating label distribution shift for active domain adaptation},
+  author={Hwang Sehyun and Lee Sohyun and Kim Sungyeon and Ok Jungseul and Kwak Suha},
+  abstract={We consider the problem of active domain adaptation (ADA) to unlabeled target data, of which subset is actively selected and labeled given a budget constraint. Inspired by recent analysis on a critical issue from label distribution mismatch between source and target in domain adaptation, we devise a method that addresses the issue for the first time in ADA. At its heart lies a novel sampling strategy, which seeks target data that best approximate the entire target distribution as well as being representative, diverse, and uncertain. The sampled target data are then used not only for supervised learning but also for matching label distributions of source and target domains, leading to remarkable performance improvement. On four public benchmarks, our method substantially outperforms existing methods in every adaptation scenario.},
+  booktitle=ECCV,
+  year={2022},
+  abbr={ECCV},
+  arxiv={2208.06604},
+  selected={true},
+  img_path={assets/img/hwang2023combating2.png},
+  code={https://github.com/sehyun03/ADA-label-distribution-matching},
+  pages={549--566},
+  organization={Springer},
+}
+
 @inproceedings{kim2023improving,
   title={Improving Cross-Modal Retrieval with Set of Diverse Embeddings},
   author={Dongwon Kim and Namyup Kim and Suha Kwak},
@@ -73,19 +88,3 @@
   arxiv={2212.07579},
   img_path={assets/img/publication_preview/kim2022learning.jpg}
 }
-
-
-@inproceedings{son2020urie,
-  title={Urie: Universal image enhancement for visual recognition in the wild},
-  author={Taeyoung Son and Juwon Kang and Namyup Kim and Sunghyun Cho and Suha Kwak},
-  abstract={Despite the great advances in visual recognition, it has been witnessed that recognition models trained on clean images of common datasets are not robust against distorted images in the real world. To tackle this issue, we present a Universal and Recognition-friendly Image Enhancement network, dubbed URIE, which is attached in front of existing recognition models and enhances distorted input to improve their performance without retraining them. URIE is universal in that it aims to handle various factors of image degradation and to be incorporated with any arbitrary recognition models. Also, it is recognition-friendly since it is optimized to improve the robustness of following recognition models, instead of perceptual quality of output image. Our experiments demonstrate that URIE can handle various and latent image distortions and improve the performance of existing models for five diverse recognition tasks when input images are degraded.},
-  booktitle=ECCV,
-  year={2020},
-  abbr={ECCV},
-  arxiv={2007.08979},
-  selected={true},
-  code={https://github.com/taeyoungson/urie},
-  website={http://cvlab.postech.ac.kr/research/URIE/},
-  img_path={assets/img/publication_preview/son2020urie.jpg}
-}
-
