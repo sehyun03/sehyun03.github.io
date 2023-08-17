@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-06-27 15:59:00-0400
+date: 2023-05-22 07:59:00-0400
 inline: true
 ---
 
-📜 A paper on weakly supervised learning for semantic boundary detection is accepted to IJCV.
+:trophy: I won the POSTECHIAN Fellowship Award from [POSTECH CSE](https://ecse.postech.ac.kr/).

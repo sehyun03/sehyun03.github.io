@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. student in the <a href='http://cvlab.postech.ac.kr/lab/'>Computer Vision Lab</a> at <a href='https://postech.ac.kr/eng/'>POSTECH</a>.
+subtitle: 
 
 profile:
   align: right
@@ -13,15 +13,15 @@ profile:
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 education: true # includes a list of education items
-experience: true # includes a list of experience items
+experience: false # includes a list of experience items
 honors: true # includes a list of experience items
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in [Computer Science Engineering department](https://cse.postech.ac.kr/) at [POSTECH](https://postech.ac.kr/eng/), working as a member of the [Computer Vision Lab](http://cvlab.postech.ac.kr/lab/), advised by Prof. [Suha Kwak](https://suhakwak.github.io/).
-<!-- Previously, I completed my B.S. in Mechanical Engineering at POSTECH. -->
+I am a Ph.D. student at the [POSTECH Computer Vision Lab](http://cvlab.postech.ac.kr/lab/), under the guidance of Prof. [Suha Kwak](https://suhakwak.github.io/), within the [Department of Computer Science Engineering](https://cse.postech.ac.kr/) at [POSTECH](https://postech.ac.kr/eng/).
 
-My research lies in computer vision and deep learning including, but not limited to, multimodal learning, domain generalization, weakly supervised learning and its applications.
-I am particularly interested in referring image segmentation which is an advanced semantic
-segmentation task where target is not a predefined class but is described in natural language.
-If you are interested in my research projects, please feel free to contact me.
+My research iterest lies in various aspects of machine learning and computer vision including, but not limited to, active learning, domain adaptation, debiasing and its applications.
+I recently interested in using active learning to address challenges like data shortages, spurious correlations, and data imbalances.
+
+I'm actively seeking opportunities for meaningful collaborations and internships.
+If you find my work interesting or have any questions, please don't hesitate to reach out.
