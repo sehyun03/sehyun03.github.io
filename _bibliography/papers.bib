@@ -3,9 +3,23 @@
 
 @string{CVPR = {{IEEE/CVF} Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>),}}
 @string{ECCV = {European Conference on Computer Vision (<b>ECCV</b>),}}
+@string{ICCV = {International Conference on Computer Vision (<b>ICCV</b>),}}
+@string{NEURIPS = {Conference on Neural Information Processing Systems (<b>NeurIPS</b>),}}
 @string{IJCV = {International Journal of Computer Vision (<b>IJCV</b>),}}
 @string{ICRA = {IEEE International Conference on Robotics and Automation (<b>ICRA</b>),}}
 @string{arXiv = {arXiv preprint,}}
+
+@inproceedings{kim2022adaptive,
+  title={Adaptive Superpixel for Active Learning in Semantic Segmentation},
+  author={Kim Hoyoung and Oh Minhyeon and Hwang Sehyun and Kwak Suha and Ok Jungseul},
+  abstract={Learning semantic segmentation requires pixel-wise annotations, which can be time-consuming and expensive. To reduce the annotation cost, we propose a superpixel-based active learning (AL) framework, which collects a dominant label per superpixel instead. To be specific, it consists of adaptive superpixel and sieving mechanisms, fully dedicated to AL. At each round of AL, we adaptively merge neighboring pixels of similar learned features into superpixels. We then query a selected subset of these superpixels using an acquisition function assuming no uniform superpixel size. This approach is more efficient than existing methods, which rely only on innate features such as RGB color and assume uniform superpixel sizes. Obtaining a dominant label per superpixel drastically reduces annotators' burden as it requires fewer clicks. However, it inevitably introduces noisy annotations due to mismatches between superpixel and ground truth segmentation. To address this issue, we further devise a sieving mechanism that identifies and excludes potentially noisy annotations from learning. Our experiments on both Cityscapes and PASCAL VOC datasets demonstrate the efficacy of adaptive superpixel and sieving mechanisms.},
+  booktitle=ICCV,
+  year={2023},
+  abbr={ICCV},
+  arxiv={2303.16817},
+  selected={true},
+  img_path={assets/img/kim2023adaptive.png},
+}
 
 @inproceedings{hwang2022combating,
   title={Combating label distribution shift for active domain adaptation},
@@ -22,59 +36,18 @@
   organization={Springer},
 }
 
-@inproceedings{kim2023improving,
-  title={Improving Cross-Modal Retrieval with Set of Diverse Embeddings},
-  author={Dongwon Kim and Namyup Kim and Suha Kwak},
-  abstract={Cross-modal retrieval across image and text modalities is a challenging task due to its inherent ambiguity: An image often exhibits various situations, and a caption can be coupled with diverse images. Set-based embedding has been studied as a solution to this problem. It seeks to encode a sample into a set of different embedding vectors that capture different semantics of the sample. In this paper, we present a novel set-based embedding method, which is distinct from previous work in two aspects. First, we present a new similarity function called smooth-Chamfer similarity, which is designed to alleviate the side effects of existing similarity functions for set-based embedding. Second, we propose a novel set prediction module to produce a set of embedding vectors that effectively captures diverse semantics of input by the slot attention mechanism. Our method is evaluated on the COCO and Flickr30K datasets across different visual backbones, where it outperforms existing methods including ones that demand substantially larger computation at inference.},
-  booktitle=CVPR,
-  year={2023},
-  abbr={CVPR},
-  arxiv={2211.16761},
-  selected={true},
-  website={http://cvlab.postech.ac.kr/research/},
-  img_path={assets/img/publication_preview/kim2023improving.jpg}
-}
-
-
-@inproceedings{kim2021wedge,
-  title={WEDGE: Web-Image Assisted Domain Generalization for Semantic Segmentation},
-  author={Namyup Kim and Taeyoung Son and Jaehyun Pahk and Cuiling Lan and Wenjun Zeng and Suha Kwak},
-  abstract={Domain generalization for semantic segmentation is highly demanded in real applications, where a trained model is expected to work well in previously unseen domains. One challenge lies in the lack of data which could cover the diverse distributions of the possible unseen domains for training. In this paper, we propose a WEb-image assisted Domain GEneralization (WEDGE) scheme, which is the first to exploit the diversity of web-crawled images for generalizable semantic segmentation. To explore and exploit the real-world data distributions, we collect a web-crawled dataset which presents large diversity in terms of weather conditions, sites, lighting, camera styles, etc. We also present a method which injects the style representation of the web-crawled data into the source domain on-the-fly during training, which enables the network to experience images of diverse styles with reliable labels for effective training. Moreover, we use the web-crawled dataset with predicted pseudo labels for training to further enhance the capability of the network. Extensive experiments demonstrate that our method clearly outperforms existing domain generalization techniques.},
-  booktitle=ICRA,
-  year={2023},
-  abbr={ICRA},
-  arxiv={2109.14196},
-  selected={true},
-  img_path={assets/img/publication_preview/kim2021wedge.jpg}
-}
-
-
-@inproceedings{kim2022restr,
-  title={ReSTR: Convolution-free Referring Image Segmentation Using Transformers},
-  author={Namyup Kim and Dongwon Kim and Cuiling Lan and Wenjun Zeng and Suha Kwak},
-  abstract={Referring image segmentation is an advanced semantic segmentation task where target is not a predefined class but is described in natural language. Most of existing methods for this task rely heavily on convolutional neural networks, which however have trouble capturing long-range dependencies between entities in the language expression and are not flexible enough for modeling interactions between the two different modalities. To address these issues, we present the first convolution-free model for referring image segmentation using transformers, dubbed ReSTR. Since it extracts features of both modalities through transformer encoders, it can capture long-range dependencies between entities within each modality. Also, ReSTR fuses features of the two modalities by a self-attention encoder, which enables flexible and adaptive interactions between the two modalities in the fusion process. The fused features are fed to a segmentation module, which works adaptively according to the image and language expression in hand. ReSTR is evaluated and compared with previous work on all public benchmarks, where it outperforms all existing models.},
-  booktitle=CVPR,
+@inproceedings{kim2022debias,
+  title={Learning debiased classifier with biased committee}},
+  author={Nayeong Kim and Sehyun Hwang and Sungsoo Ahn and Jaesik Park and Suha Kwak},
+  abstract={Neural networks are prone to be biased towards spurious correlations between classes and latent attributes exhibited in a major portion of training data, which ruins their generalization capability. We propose a new method for training debiased classifiers with no spurious attribute label. The key idea is to employ a committee of classifiers as an auxiliary module that identifies bias-conflicting data, i.e., data without spurious correlation, and assigns large weights to them when training the main classifier. The committee is learned as a bootstrapped ensemble so that a majority of its classifiers are biased as well as being diverse, and intentionally fail to predict classes of bias-conflicting data accordingly. The consensus within the committee on prediction difficulty thus provides a reliable cue for identifying and weighting bias-conflicting data. Moreover, the committee is also trained with knowledge transferred from the main classifier so that it gradually becomes debiased along with the main classifier and emphasizes more difficult data as training progresses. On five real-world datasets, our method outperforms prior arts using no spurious attribute label like ours and even surpasses those relying on bias labels occasionally.},
+  booktitle=NEURIPS,
   year={2022},
-  abbr={CVPR},
-  arxiv={2203.16768},
+  abbr={NeurIPS},
+  arxiv={2206.10843},
   selected={true},
-  website={http://cvlab.postech.ac.kr/research/restr/},
-  img_path={assets/img/publication_preview/kim2022restr.jpg}
+  img_path={assets/img/kim2022debias2.png},
+  code={https://github.com/Nayeong-V-Kim/LWBC},
 }
-
-
-@inproceedings{kang2022styneophile,
-  title={Style Neophile: Constantly Seeking Novel Styles for Domain Generalization},
-  author={Juwon Kang and Sohyun Lee and Namyup Kim and Suha Kwak},
-  abstract={This paper studies domain generalization via domain-invariant representation learning. Existing methods in this direction suppose that a domain can be characterized by styles of its images, and train a network using style-augmented data so that the network is not biased to par-ticular style distributions. However, these methods are restricted to a finite set of styles since they obtain styles for augmentation from a fixed set of external images or by interpolating those of training data. To address this limitation and maximize the benefit of style augmentation, we propose a new method that synthesizes novel styles constantly during training. Our method manages multiple queues to store styles that have been observed so far, and synthesizes novel styles whose distribution is distinct from the distribution of styles in the queues. The style synthesis process is formulated as a monotone submodular optimization, thus can be conducted efficiently by a greedy algorithm. Extensive experiments on four public benchmarks demonstrate that the proposed method is capable of achieving state-of-the-art domain generalization performance.},
-  booktitle=CVPR,
-  year={2022},
-  abbr={CVPR},
-  selected={true},
-  website={http://cvlab.postech.ac.kr/research/StyleNeophile/},
-  img_path={assets/img/publication_preview/kang2022styneophile.jpg}
-}
-
 
 @article{kim2022learning,
   title={Learning to Detect Semantic Boundaries with Image-Level Class Labels},
