@@ -68,7 +68,7 @@
                   <em>{{author.first}} {{author.last}}</em>,&nbsp;
                 {%- else -%}
                   {% if coauthor_url -%}
-                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
+                    <a style="text-decoration:none;" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
                   {%- else -%}
                     {{author.first}} {{author.last}},&nbsp;
                   {%- endif -%}
@@ -79,7 +79,7 @@
                   <em>{{author.first}} {{author.last}}</em>
                 {% else -%}
                   {%- if coauthor_url -%}
-                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                    <a style="text-decoration:none;" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
                   {% else -%}
                     {{author.first}} {{author.last}}
                   {%- endif -%}
