@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-07-14 07:59:00-0400
+date: 2022-07-04
 inline: true
 ---
 
-📩 A paper about active learning for semantic segmentation is accepted to [ICCV 2023](https://iccv2023.thecvf.com/).
+📩 A paper on active domain adaptation is accepted to [ECCV 2022](https://eccv2022.ecva.net/).
