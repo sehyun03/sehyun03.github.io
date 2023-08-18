@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Ph.D. student at the [POSTECH Computer Vision Lab](http://cvlab.postech.ac.kr/lab/), under the guidance of Prof. [Suha Kwak](https://suhakwak.github.io/), within the [Department of Computer Science Engineering](https://cse.postech.ac.kr/) at [POSTECH](https://postech.ac.kr/eng/).
 
-My research iterest lies in various aspects of machine learning and computer vision including, but not limited to, active learning, domain adaptation, debiasing and its applications.
+My research interest lies in various aspects of machine learning and computer vision including, but not limited to, active learning, domain adaptation, debiasing and its applications.
 I recently interested in using active learning to address challenges like data shortages, spurious correlations, and data imbalances.
 
 I'm actively seeking opportunities for meaningful collaborations and internships.
