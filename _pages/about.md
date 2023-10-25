@@ -22,6 +22,7 @@ I am a Ph.D. student at the [POSTECH Computer Vision Lab](http://cvlab.postech.a
 
 My research interest lies in various aspects of machine learning and computer vision including, but not limited to, active learning, domain adaptation, debiasing and its applications.
 I recently interested in using active learning to address challenges like data shortages, spurious correlations, and data imbalances.
+For detailed information on my research interests, please see [my post](https://sehyun03.github.io/blog/2023/research-interest/).
 
 I'm actively seeking opportunities for meaningful collaborations and internships.
 If you find my work interesting or have any questions, please don't hesitate to reach out.
