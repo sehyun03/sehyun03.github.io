@@ -23,4 +23,5 @@ Looking ahead, I am interested in enhancing the alignment and efficiency of LLM 
 - Sehyun Hwang, Sohyun Lee, Sungyeon Kim, Jungseul Ok, and Suha Kwak. Combating label distribution shift for active domain adaptation. In Proc. European Conference on Computer Vision (ECCV), pages 549–566. Springer, 2022.
 - Nayeong Kim, Sehyun Hwang, Sungsoo Ahn, Jaesik Park, and Suha Kwak. Learning debiased classifier with biased committee. In NeurIPS, pages 18403–18415, 2022.
 - Namyup Kim, Sehyun Hwang, and Suha Kwak. Learning to detect semantic boundaries with image-level class labels. International Journal of Computer Vision (IJCV), 130(9):2131–2148, 2022.
-[1]: blank
+
+[1]: Kim et al.
