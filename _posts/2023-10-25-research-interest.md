@@ -12,7 +12,7 @@ Consequently, I have focused on the study of active learning, a leading method t
 
 In addition, our work, Kim et al., IJCV 2022, has investigated the application of multiple-instance learning for weakly supervised learning, aiming to elevate label efficiency.
 
-Beyond label efficiency, I believe in the potential of data selection or refinement in improving model fairness and mitigating data imbalance. As part of this exploration, my study, Kim et al., NeurIPS 2022, was focused on creating strategies to address existing biases within datasets.
+Beyond label efficiency, I believe in the potential of data selection or refinement in improving model fairness and mitigating data imbalance. As part of this exploration, our study, Kim et al., NeurIPS 2022, was focused on creating strategies to address existing biases within datasets.
 
 Looking ahead, I am interested in enhancing the alignment and efficiency of LLM and MLLM models through data filtering, such as data pruning.
 <br><br> 
