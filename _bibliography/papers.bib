@@ -7,11 +7,23 @@
 @string{NEURIPS = {Conference on Neural Information Processing Systems (<b>NeurIPS</b>),}}
 @string{IJCV = {International Journal of Computer Vision (<b>IJCV</b>),}}
 @string{ICRA = {IEEE International Conference on Robotics and Automation (<b>ICRA</b>),}}
+@string{ICML = {International Conference on Machine Learning (<b>ICML</b>),}}
 @string{arXiv = {arXiv preprint,}}
 
+@inproceedings{kim2024active,
+  title={Active Label Correction for Semantic Segmentation with Foundation Models},
+  author={Hoyoung Kim and and Sehyun Hwang and Suha Kwak and Jungseul Ok},
+  abstract={Training and validating models for semantic segmentation require datasets with pixel-wise annotations, which are notoriously labor-intensive. Although useful priors such as foundation models or crowdsourced datasets are available, they are error-prone. We hence propose an effective framework of active label correction (ALC) based on a design of correction query to rectify pseudo labels of pixels, which in turn is more annotator-friendly than the standard one inquiring to classify a pixel directly according to our theoretical analysis and user study. Specifically, leveraging foundation models providing useful zero-shot predictions on pseudo labels and superpixels, our method comprises two key techniques: (i) an annotator-friendly design of correction query with the pseudo labels, and (ii) an acquisition function looking ahead label expansions based on the superpixels. Experimental results on PASCAL, Cityscapes, and Kvasir-SEG datasets demonstrate the effectiveness of our ALC framework, outperforming prior methods for active semantic segmentation and label correction. Notably, utilizing our method, we obtained a revised dataset of PASCAL by rectifying errors in 2.6 million pixels in PASCAL dataset.},
+  booktitle=ICML,
+  year={2024},
+  abbr={ICML},
+  arxiv={2403.10820},
+  selected={true},
+  img_path={assets/img/kim2024active.jpeg},
+}
+
 @inproceedings{lee2023extreme,
-  title={
-Extreme Point Supervised Instance Segmentation},
+  title={Extreme Point Supervised Instance Segmentation},
   author={Hyeonjun Lee and Sehyun Hwang and Suha Kwak},
   abstract={This paper introduces a new weakly supervised learning approach for instance segmentation using extreme points, i.e., the topmost, leftmost, bottommost, and rightmost points of an object. Although these points are readily available in the modern bounding box annotation process and offer strong clues for precise segmentation, they have received less attention in the literature. Motivated by this, our study explores extreme point supervised instance segmentation to further enhance performance at the same annotation cost with box-supervised methods. Our work considers extreme points as a part of the true instance mask and propagates them to identify potential foreground and background points, which are all together used for training a pseudo label generator. Then pseudo labels given by the generator are in turn used for supervised learning of our final model. Our model generates high-quality masks, particularly when the target object is separated into multiple parts, where previous box-supervised methods often fail. On three public benchmarks, our method significantly outperforms existing box-supervised methods, further narrowing the gap with its fully supervised counterpart.},
   booktitle=CVPR,
