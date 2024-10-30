@@ -65,6 +65,11 @@ layout: default
           {%- include honors.html %}
           {%- endif %}
           
+          <!-- Professional services -->
+          {% if page.services -%}
+          {%- include services.html %}
+          {%- endif %}
+
           {%- if page.social %}
           <!-- Social -->
           <div class="social">
@@ -76,11 +81,6 @@ layout: default
               {{ site.contact_note }}
             </div>
           </div>
-          {%- endif %}
-
-          <!-- Professional services -->
-          {% if page.services -%}
-          {%- include services.html %}
           {%- endif %}
 
         </article>
