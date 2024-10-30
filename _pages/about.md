@@ -16,6 +16,7 @@ education: true # includes a list of education items
 experience: true # includes a list of experience items
 honors: true # includes a list of experience items
 social: true  # includes social icons at the bottom of the page
+services: true # includes a list of services items
 ---
 
 I am a Ph.D. student at the [POSTECH Computer Vision Lab](http://cvlab.postech.ac.kr/lab/), under the guidance of Prof. [Suha Kwak](https://suhakwak.github.io/), within the [Department of Computer Science Engineering](https://cse.postech.ac.kr/) at [POSTECH](https://postech.ac.kr/eng/).
