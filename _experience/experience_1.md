@@ -5,4 +5,6 @@ inline: true
 ---
 
 [Computer Vision Lab](http://cvlab.postech.ac.kr/lab/), [POSTECH](https://postech.ac.kr/), Pohang, South Korea \
-*Research and Teaching Assistant*
+*Ph.D. Student*
+- Advisor: Prof. Suha Kwak
+- Participate in research projects about acive learning.

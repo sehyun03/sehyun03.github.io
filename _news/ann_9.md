@@ -4,4 +4,4 @@ date: 2024-05-01 07:59:00-0400
 inline: true
 ---
 
-📩 A paper about actively correcting segmentation labels using foundation model is accepted to [ICML 2024](https://icml.cc/).
+💼 I joined [Scalable Trustworthy AI Lab](https://scalabletrustworthyai.github.io/) at [University of Tübingen](https://uni-tuebingen.de/en/) as a visiting researcher.
