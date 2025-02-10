@@ -2,7 +2,10 @@
 layout: post
 inline: true
 ---
-**BK21 Best Paper Award, POSTECH CSE (2023)**
+**BK21 Best Paper Award, POSTECH CSE (2025)**
+- Best Paper Award \- *Active Label Correction for Semantic Segmentation with Foundation Models*
+
+**BK21 Best Paper Award, POSTECH CSE (2024)**
 - Best Paper Award \- *Adaptive Superpixel for Active Learning in Semantic Segmentation*
 
 **POSTECHIAN Fellowship Award (2023)**
