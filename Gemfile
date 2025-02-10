@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+# Add uri gem with specific version
+gem 'uri', '~> 0.10.1'
 group :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-archives'
