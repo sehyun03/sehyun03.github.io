@@ -21,9 +21,8 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently a postdoctoral researcher at the [POSTECH Computer Vision Lab](http://cvlab.postech.ac.kr/lab/), where I also received my Ph.D. under the supervision of Prof. [Suha Kwak](https://suhakwak.github.io/). 
 
-My research interest lies in various aspects of machine learning and computer vision including, but not limited to, active learning, domain adaptation, debiasing and its applications.
-I am interested in developing practical solutions to address fundamental challenges in machine learning, including data efficiency and dataset biases.
-<!-- Currently, I am working on extending active learning approaches to tackle various real-world problems in computer vision. -->
+I worked on active learning, domain adaptation, and debiasing in machine learning and computer vision during my Ph.D., gaining experience in data-efficient and robust learning.
+I am interested in data-centric learning and its applications to improving VLMs, LLMs, and embodied AI.
 
 I am open to research collaborations and discussions.
-Feel free to reach out if you would like to discuss potential opportunities.  
+Feel free to reach out if you would like to discuss research-related matters.
