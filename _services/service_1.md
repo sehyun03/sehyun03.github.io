@@ -5,6 +5,7 @@ inline: true
 
 **Reviewer**
 - IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**)
+- International Journal of Computer Vision (**IJCV**)
 - Conference on Computer Vision and Pattern Recognition (**CVPR**): 2023-2025
 - International Conference on Learning Representations (**ICLR**): 2025
 - European Conference on Computer Vision (**ECCV**): 2024
