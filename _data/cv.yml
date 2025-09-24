@@ -8,7 +8,7 @@
     - name: Languages
       value: Korean, English
 
-- title: Education
+- title: Education & Academic Experience
   type: time_table
   contents:
     - title: PhD

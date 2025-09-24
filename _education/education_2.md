@@ -1,9 +1,10 @@
 ---
 layout: post
-start_end: "Sep, 2018 - Feb, 2025"
+start_end: "Mar, 2024 - May, 2024"
 inline: true
 ---
 
-[Pohang University of Science and Technology (POSTECH)](https://postech.ac.kr/eng/), Pohang, South Korea \
-Integrated M.S./Ph.D. student in [Computer Science and Engineering](https://cse.postech.ac.kr/)  \
-Advisor: Prof. [Suha Kwak](https://suhakwak.github.io/)
+[Scalable Trustworthy AI Lab](https://scalabletrustworthyai.github.io/) at [University of Tübingen](https://uni-tuebingen.de/en/), Tübingen, Germany \
+*Visiting Researcher*
+- Mentor: Prof. Seongjoon Oh
+- Participate in research projects about active learning for OOD.
