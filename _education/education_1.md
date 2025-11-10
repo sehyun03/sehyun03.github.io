@@ -1,6 +1,6 @@
 ---
 layout: post
-start_end: "Mar, 2014 - Sep, 2018"
+start_end: "Mar, 2014 - Aug, 2018"
 inline: true
 ---
 
